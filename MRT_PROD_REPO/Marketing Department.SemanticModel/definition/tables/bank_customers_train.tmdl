@@ -1,0 +1,290 @@
+table bank_customers_train
+	lineageTag: 5f8bad08-6a46-4fee-aea0-3a2c5e047e04
+
+	column Age
+		dataType: int64
+		formatString: 0
+		lineageTag: ddd0eacb-1247-4dfa-851d-7fbb22048632
+		summarizeBy: sum
+		sourceColumn: Age
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation __PBI_SemanticLinks = [{"LinkTarget":{"TableName":"bank_customers_train","TableItemName":"Age Groups","ObjectType":4},"LinkType":"UsedInGroup"}]
+
+	column Job
+		dataType: string
+		lineageTag: c3c705d6-72c5-4284-84bd-09a0902431fa
+		summarizeBy: none
+		sourceColumn: Job
+
+		annotation SummarizationSetBy = Automatic
+
+	column Marital
+		dataType: string
+		lineageTag: 5ccb0286-bcd9-442d-9b49-72df188fcc5b
+		summarizeBy: none
+		sourceColumn: Marital
+
+		annotation SummarizationSetBy = Automatic
+
+	column Education
+		dataType: string
+		lineageTag: 06f35a9c-2d61-406f-a01a-9c6376a17ff4
+		summarizeBy: none
+		sourceColumn: Education
+
+		annotation SummarizationSetBy = Automatic
+
+	column Default
+		dataType: string
+		lineageTag: 96cafc5a-1762-40c1-81b9-50bbe499117b
+		summarizeBy: none
+		sourceColumn: Default
+
+		annotation SummarizationSetBy = Automatic
+
+	column Housing
+		dataType: string
+		lineageTag: f5e71657-18cb-4245-9722-a69d7e72002c
+		summarizeBy: none
+		sourceColumn: Housing
+
+		annotation SummarizationSetBy = Automatic
+
+	column Loan
+		dataType: string
+		lineageTag: 7ff02b7f-e6ad-4560-b051-655785681c41
+		summarizeBy: none
+		sourceColumn: Loan
+
+		annotation SummarizationSetBy = Automatic
+
+	column Contact
+		dataType: string
+		lineageTag: 67b27ed8-9bd9-4380-88c7-844574949636
+		summarizeBy: none
+		sourceColumn: Contact
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month
+		dataType: string
+		lineageTag: a41083cc-54af-4f26-ad99-649ebc267eca
+		summarizeBy: none
+		sourceColumn: Month
+
+		annotation SummarizationSetBy = Automatic
+
+	column DayOfWeek
+		dataType: string
+		lineageTag: 5c2e8c02-69b0-481d-a3e8-8e930a24684a
+		summarizeBy: none
+		sourceColumn: DayOfWeek
+
+		annotation SummarizationSetBy = Automatic
+
+	column Duration
+		dataType: int64
+		formatString: 0
+		lineageTag: 9df97ea1-e6fa-4a90-9b39-51bd873525ca
+		summarizeBy: sum
+		sourceColumn: Duration
+
+		annotation SummarizationSetBy = Automatic
+
+	column Campaign
+		dataType: int64
+		formatString: 0
+		lineageTag: 295c021e-4745-461f-8bac-e1bc33f287b2
+		summarizeBy: sum
+		sourceColumn: Campaign
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation __PBI_SemanticLinks = [{"LinkTarget":{"TableName":"bank_customers_train","TableItemName":"Campaign (bins)","ObjectType":4},"LinkType":"UsedInGroup"}]
+
+	column PDays
+		dataType: int64
+		formatString: 0
+		lineageTag: 54050561-ea04-4ddf-923d-b53a26a2b8da
+		summarizeBy: sum
+		sourceColumn: PDays
+
+		annotation SummarizationSetBy = Automatic
+
+	column Previous
+		dataType: int64
+		formatString: 0
+		lineageTag: 51efeb14-e3da-41cd-bbca-f0ab5907386a
+		summarizeBy: sum
+		sourceColumn: Previous
+
+		annotation SummarizationSetBy = Automatic
+
+	column Poutcome
+		dataType: string
+		lineageTag: 308e8d5f-c96e-4009-bad6-2fc606b030f6
+		summarizeBy: none
+		sourceColumn: Poutcome
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'emp.var.rate'
+		dataType: double
+		lineageTag: 9e539087-b10e-4026-9397-47361973faaf
+		summarizeBy: sum
+		sourceColumn: emp.var.rate
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'cons.price.idx'
+		dataType: double
+		lineageTag: 6dd57a12-305e-4029-9f00-22bc296e7102
+		summarizeBy: sum
+		sourceColumn: cons.price.idx
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'cons.conf.idx'
+		dataType: double
+		lineageTag: edf6370b-e1c1-431b-976b-3818b5961d13
+		summarizeBy: sum
+		sourceColumn: cons.conf.idx
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column euribor3m
+		dataType: double
+		lineageTag: 0c7e03a5-4ca8-48db-870d-13c1fb27d6f4
+		summarizeBy: sum
+		sourceColumn: euribor3m
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Nr.employed'
+		dataType: double
+		lineageTag: 4d042f4f-0d4e-4174-8391-f0a11590f2b7
+		summarizeBy: sum
+		sourceColumn: Nr.employed
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Term Deposit'
+		dataType: string
+		lineageTag: 9d62bea2-8989-43ce-944c-07864ccc18f7
+		summarizeBy: none
+		sourceColumn: Term Deposit
+
+		annotation SummarizationSetBy = Automatic
+
+	column Index
+		dataType: int64
+		formatString: 0
+		lineageTag: 4452a68b-f761-4835-bb3c-2a2dea936c69
+		summarizeBy: sum
+		sourceColumn: Index
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Age Groups' =
+			IF(
+				ISBLANK('bank_customers_train'[Age]),
+				BLANK(),
+				INT('bank_customers_train'[Age] / 10) * 10
+			)
+		formatString: 0
+		lineageTag: bd904d63-b6f1-4f43-a98a-4ccb2ff8f1bf
+		summarizeBy: none
+
+		extendedProperty GroupingMetadata =
+				{
+				  "version": 0,
+				  "groupedColumns": [
+				    {
+				      "Column": {
+				        "Expression": {
+				          "SourceRef": {
+				            "Entity": "bank_customers_train"
+				          }
+				        },
+				        "Property": "Age"
+				      }
+				    }
+				  ],
+				  "binningMetadata": {
+				    "binSize": {
+				      "value": 10.0,
+				      "unit": 0
+				    }
+				  }
+				}
+
+		annotation GroupingDesignState = {"Version":0,"Sources":[{"Name":"b","Entity":"bank_customers_train"}],"GroupedColumns":[{"Column":{"Expression":{"SourceRef":{"Source":"b"}},"Property":"Age"}}],"BinItem":{"Expression":{"Floor":{"Expression":{"Column":{"Expression":{"SourceRef":{"Source":"b"}},"Property":"Age"}},"Size":10.0}}}}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Campaign (bins)' =
+			IF(
+				ISBLANK('bank_customers_train'[Campaign]),
+				BLANK(),
+				INT('bank_customers_train'[Campaign] / 20) * 20
+			)
+		formatString: 0
+		lineageTag: 9c680c36-5acd-4c09-81ca-2236914518bf
+		summarizeBy: none
+
+		extendedProperty GroupingMetadata =
+				{
+				  "version": 0,
+				  "groupedColumns": [
+				    {
+				      "Column": {
+				        "Expression": {
+				          "SourceRef": {
+				            "Entity": "bank_customers_train"
+				          }
+				        },
+				        "Property": "Campaign"
+				      }
+				    }
+				  ],
+				  "binningMetadata": {
+				    "binSize": {
+				      "value": 20.0,
+				      "unit": 0
+				    }
+				  }
+				}
+
+		annotation GroupingDesignState = {"Version":0,"Sources":[{"Name":"b","Entity":"bank_customers_train"}],"GroupedColumns":[{"Column":{"Expression":{"SourceRef":{"Source":"b"}},"Property":"Campaign"}}],"BinItem":{"Expression":{"Floor":{"Expression":{"Column":{"Expression":{"SourceRef":{"Source":"b"}},"Property":"Campaign"}},"Size":20.0}}}}
+
+		annotation SummarizationSetBy = Automatic
+
+	partition bank_customers_train = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\PBI\Duna\Data\PBILAB\PBILAB09-Marketing\Bank Marketing\bank_customers_train.csv"),[Delimiter=",", Columns=21, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"age", Int64.Type}, {"job", type text}, {"marital", type text}, {"education", type text}, {"default", type text}, {"housing", type text}, {"loan", type text}, {"contact", type text}, {"month", type text}, {"day_of_week", type text}, {"duration", Int64.Type}, {"campaign", Int64.Type}, {"pdays", Int64.Type}, {"previous", Int64.Type}, {"poutcome", type text}, {"emp.var.rate", type number}, {"cons.price.idx", type number}, {"cons.conf.idx", type number}, {"euribor3m", type number}, {"nr.employed", type number}, {"y", type text}}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"y", "Term Deposit"}}),
+				    #"Added Index" = Table.AddIndexColumn(#"Renamed Columns", "Index", 1, 1, Int64.Type),
+				    #"Renamed Columns1" = Table.RenameColumns(#"Added Index",{{"job", "Job"}, {"marital", "Marital"}, {"education", "Education"}, {"default", "Default"}, {"housing", "Housing"}, {"loan", "Loan"}, {"contact", "Contact"}, {"month", "Month"}, {"day_of_week", "DayOfWeek"}, {"duration", "Duration"}, {"campaign", "Campaign"}, {"pdays", "PDays"}, {"previous", "Previous"}, {"poutcome", "Poutcome"}, {"nr.employed", "Nr.employed"}, {"age", "Age"}})
+				in
+				    #"Renamed Columns1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
